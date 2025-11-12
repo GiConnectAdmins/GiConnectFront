@@ -1,0 +1,47 @@
+# -----------------------
+# NODE / ANGULAR / IONIC
+# -----------------------
+
+# Dependencias (no subir nunca)
+node_modules/
+
+# Builds
+www/
+dist/
+platforms/
+build/
+coverage/
+
+# Archivos temporales de Ionic / Capacitor
+.idea/
+.vscode/
+.sass-cache/
+.tmp/
+temp/
+*.tmp
+*.log
+
+# Capacitor / Cordova output
+ios/
+android/
+plugins/
+
+# Archivos del sistema o de editores
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Archivos de entorno
+*.env
+.env.local
+.env.*.local
+
+# Configuración de npm / lockfiles opcionales
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de test temporales
+karma.conf.js.map
